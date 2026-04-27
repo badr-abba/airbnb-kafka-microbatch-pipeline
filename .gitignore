@@ -1,0 +1,25 @@
+# Fichiers d'environnement
+.env
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de donnees
+*.csv
+!raw_data/*.csv
+
+# Fichiers systemes et IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data Lake et Archive
+data_lake/*
+archive/*
