@@ -23,3 +23,5 @@ __pycache__/
 # Data Lake et Archive
 data_lake/*
 archive/*
+raw_data/*
+markdown
