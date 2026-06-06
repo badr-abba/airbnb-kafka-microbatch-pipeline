@@ -11,17 +11,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Fichiers de donnees
-*.csv
-!raw_data/*.csv
-
 # Fichiers systemes et IDE
 .vscode/
 .idea/
 .DS_Store
 
-# Data Lake et Archive
-data_lake/*
-archive/*
+# Données générées (contenu dynamique, pas le dossier)
 raw_data/*
-markdown
+!raw_data/.gitkeep
+
+archive/*
+!archive/.gitkeep
+
+data_lake/airbnb_clean/*
+!data_lake/airbnb_clean/.gitkeep
